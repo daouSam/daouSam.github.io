@@ -376,6 +376,10 @@ a:focus {
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    .col-lg-10{
+        display: flex;
+        flex-direction: column;
+    }
     
     .hero,
     .hero .hero-text,
@@ -568,6 +572,64 @@ a:focus {
 /*******************************/
 /******* Experience CSS ********/
 /*******************************/
+
+/**
+formation
+**/
+.formation{
+margin-bottom: 5%;
+}
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 1rem;
+}
+
+.education .box-container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    padding-left: 2rem;
+    border-left: .2rem solid rgb(58, 55, 55);
+    position: relative;
+}
+
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background:rgb(255, 230, 147);
+    color:rgb(65, 38, 21);
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.education .box-container .box h3{
+    font-size: 1rem;
+    color:#222;
+    padding-top: 1.5rem;
+}
+
+.education .box-container .box p{
+    font-size: 1.4rem;
+    color:#222;
+    padding: 1rem 0;
+}
+
+.education .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    color:#222;
+    background:var(--yellow);
+}
+/**end formation**/
+
 .col-lg-10{
     display: flex;
     flex-direction: row;
@@ -1098,13 +1160,13 @@ a:focus {
 }
 
 .price .price-item.featured-item .price-action .btn {
-    color: #ffffff;
+    color: #ffffff78;
     background: #645f5f;
     box-shadow: inset 0 0 0 50px #EF233C;
 }
 
 .price .price-item.featured-item .price-action .btn:hover {
-    color: #EF233C;
+    color: #797676;
     background: transparent;
     box-shadow: inset 0 0 0 0 #EF233C;
     border-color: #EF233C;
