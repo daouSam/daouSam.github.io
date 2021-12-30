@@ -253,7 +253,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(49, 132, 241, 0.95), rgba(175, 174, 174, 0.95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(104, 106, 109, 0.849), rgba(175, 174, 174, 0.95)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -370,17 +370,22 @@ a:focus {
         letter-spacing: 1px;
     }
 }
+/* @media (max-width: 700px) {
+    .experience2 {   
+      flex-direction: column;
+    }
+  } */
 
 @media (max-width: 767.98px) {
     .hero {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .col-lg-10{
-        display: flex;
-        flex-direction: column;
+    .experience2 {
+        display: block;   
+        flex-direction: column-reverse;
     }
-    
+
     .hero,
     .hero .hero-text,
     .hero .hero-btn {
@@ -632,7 +637,7 @@ margin-bottom: 5%;
 
 .col-lg-10{
     display: flex;
-    flex-direction: row;
+    flex-direction: block;
     justify-content: space-between;
 }
 .experience {
@@ -681,7 +686,7 @@ margin-bottom: 5%;
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #EF233C;
+    border: 2px solid #6e6e6e;
     border-radius: 16px;
     z-index: 1;
 }
@@ -713,7 +718,7 @@ margin-bottom: 5%;
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #EF233C;
+    color: #887a7c;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -827,7 +832,7 @@ margin-bottom: 5%;
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #EF233C;
+    box-shadow: inset 800px 0 0 0 #747070;
 }
 
 .service .service-icon {
@@ -837,14 +842,14 @@ margin-bottom: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #EF233C;
+    border: 1px solid #77696b;
     background: #ffffff;
 }
 
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #EF233C;
+    color: #726668;
     transition: .3s;
 }
 
@@ -915,7 +920,7 @@ margin-bottom: 5%;
     background: #645f5f;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #EF233C;
+    box-shadow: inset 0 0 0 50px #74686a;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -923,10 +928,10 @@ margin-bottom: 5%;
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #EF233C;
+    color: #8d7c7e;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 #887e7f;
+    border-color: #776e6f;
 }
 
 .portfolio .portfolio-item {
@@ -988,10 +993,10 @@ margin-bottom: 5%;
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #EF233C;
+    color: #8b7b7d;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 #817778;
+    border-color: #867b7c;
 }
 
 
@@ -1040,7 +1045,7 @@ margin-bottom: 5%;
 
 .banner .banner-text .btn {
     margin-top: 15px;
-    color: #EF233C;
+    color: #6b5e5f;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1095,7 +1100,7 @@ margin-bottom: 5%;
 }
 
 .price .price-item.featured-item .price-header {
-    color: #EF233C;
+    color: #837f80;
 }
 
 .price .price-title h2 {
@@ -1125,7 +1130,7 @@ margin-bottom: 5%;
 }
 
 .price .price-item.featured-item h2 {
-    color: #EF233C;
+    color: #867e7f;
 }
 
 .price .price-body {
@@ -1162,14 +1167,14 @@ margin-bottom: 5%;
 .price .price-item.featured-item .price-action .btn {
     color: #ffffff78;
     background: #645f5f;
-    box-shadow: inset 0 0 0 50px #EF233C;
+    box-shadow: inset 0 0 0 50px #8b8384;
 }
 
 .price .price-item.featured-item .price-action .btn:hover {
     color: #797676;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 #887f80;
+    border-color: #8f8082;
 }
 
 
@@ -1212,7 +1217,7 @@ margin-bottom: 5%;
 }
 
 .team .team-text h2 {
-    color: #EF233C;
+    color: #8d8183;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1251,7 +1256,7 @@ margin-bottom: 5%;
 }
 
 .team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #EF233C;
+    box-shadow: inset 800px 0 0 0 #8b8182;
 }
 
 .team .team-item:hover .team-img img {
