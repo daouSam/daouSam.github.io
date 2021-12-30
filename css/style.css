@@ -584,6 +584,11 @@ formation
 .formation{
 margin-bottom: 5%;
 }
+
+.formation-etude{
+    margin-top: 3%;
+    margin-left: 2%;
+}
 .education .box-container{
     display: flex;
     align-items: center;
