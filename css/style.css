@@ -586,8 +586,8 @@ margin-bottom: 5%;
 }
 
 .formation-etude{
-    margin-top: 3%;
-    margin-left: 2%;
+    padding-top: 3%;
+    padding-left: 3%;
 }
 .education .box-container{
     display: flex;
@@ -599,38 +599,38 @@ margin-bottom: 5%;
 }
 
 .education .box-container .box{
-    width:27rem;
-    margin:4rem 1rem;
+    width:100%;
+    margin:4rem 1rem; 
     padding-left: 2rem;
     border-left: .2rem solid rgb(58, 55, 55);
     position: relative;
 }
 
 .education .box-container .box span{
-    font-size: 1.3rem;
-    background:rgb(255, 230, 147);
-    color:rgb(65, 38, 21);
+    font-size: 1.0rem;
+    background:#645f5f;
+    color:#f5e6ab;
     border-radius: 5rem;
-    padding:.5rem 2.5rem;
+    padding:.4rem 1.5rem;
 }
 
 .education .box-container .box h3{
-    font-size: 1rem;
+    font-size: 0.9rem;
     color:#222;
     padding-top: 1.5rem;
 }
 
 .education .box-container .box p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color:#222;
-    padding: 1rem 0;
+    padding: 0.8rem 0;
 }
 
 .education .box-container .box i{
     position: absolute;
-    top:-1.5rem; left:-2.5rem;
-    height:5rem;
-    width: 5rem;
+    top:-1.5rem; left:-1.5rem;
+    height:3rem;
+    width: 3rem;
     border-radius: 50%;
     line-height: 3rem;
     text-align: center;
