@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>daou_sam</title>
+        <title>Sam</title>
         <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -28,7 +28,7 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Mon Site</a>
+                <a href="index.html" class="navbar-brand">DAOU</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,7 +36,7 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="#home" class="nav-item nav-link active">Acceuil</a>
-                        <a href="#about" class="nav-item nav-link">A propos de moi</a>
+                        <a href="#propos" class="nav-item nav-link">A propos de moi</a>
                         <a href="#service" class="nav-item nav-link">Services</a>
                         <a href="#formation" class="nav-item nav-link">Formations</a>
                         <a href="#experience" class="nav-item nav-link">Experiences</a>
@@ -82,6 +82,30 @@
         </div>
         <!-- Hero End -->
 
+        <!-- a propos start -->
+
+        <div class="container-fluid formation">
+            <div class="">
+                <h2 class="formation-etude">A propos de moi</h2>
+                <div class="row align-items-center col-sm-12">
+                    <section class="education col-sm-6" id="propos">                    
+                        <div class="box-container">
+                            <p class="col-sm-6">Je suis étudiant, un jeune passionné du numérique. J'ai une licence informatique de la faculté des sciences et techniques depuis janvier 2020.
+                                j'ai commencé à coder en L3 ce qui me fait quatre ans dans le développement des applications
+                            </p>
+                        </div>                    
+                    </section>
+                    <section class="education col-sm-6" id="propos">                    
+                        <div class="box-container">
+                            <h6>Email: sambadaou61@gmail.com</h6>
+                            <h6>Adresse: Bamako, Daoudabougou</h6>
+                            <h6>Numéro: 22374626291</h6>
+                        </div>                    
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- a propos end -->
         <!-- ma formation -->
 
         <div class="container-fluid formation">
@@ -485,9 +509,9 @@
                         <div class="col-md-8">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate" method="post">
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Entrer votre nom" required="required" data-validation-required-message="Please enter your name" />
+                                        <input type="text" class="form-control" id="nom" placeholder="Entrer votre nom" required="required" data-validation-required-message="Please enter your name" />
                                         <p class="help-block"></p>
                                     </div>
                                     <div class="control-group">
@@ -495,7 +519,7 @@
                                         <p class="help-block"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Sujet" required="required" data-validation-required-message="Please enter a subject" />
+                                        <input type="text" class="form-control" id="objet" placeholder="Sujet" required="required" data-validation-required-message="Please enter a subject" />
                                         <p class="help-block"></p>
 
                                     </div>
@@ -528,8 +552,8 @@
                         </div>
                         <div class="footer-social">
                             <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/samba.daou.792"><i class="fab fa-facebook-f"></i></a>                           
-                            <a href="https://www.linkedin.com/in/samba-daou-8b91501a2"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/samba.daou.792" target="_blank"><i class="fab fa-facebook-f"></i></a>                           
+                            <a href="https://www.linkedin.com/in/samba-daou-8b91501a2"  target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -568,5 +592,7 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <!-- contacter moi script -->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
     </body>
 </html>
